@@ -1,0 +1,16 @@
+{
+  "name": "AI Generated App",
+  "install": "npm ci && npm run build && mkdir -p uploads",
+  "terminals": [
+    {
+      "name": "web",
+      "command": "npm start"
+    }
+  ],
+  "ports": [
+    {
+      "name": "web",
+      "port": 3000
+    }
+  ]
+}
