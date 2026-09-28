@@ -1,6 +1,6 @@
 {
   "name": "AI Generated App",
-  "install": "npm ci && npm run build",
+  "install": "npm ci && npm run build && mkdir -p uploads",
   "terminals": [
     {
       "name": "web",
